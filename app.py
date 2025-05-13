@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-os.environ["REPLICATE_API_TOKEN"] = "your_replicate_api_key"
+os.environ["REPLICATE_API_TOKEN"] = "r8_3KygRMXGurnaNVvsIsuePjSj698eWW048zce6"
 
 @app.route("/generate", methods=["POST"])
 def generate():
