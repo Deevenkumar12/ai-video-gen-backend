@@ -8,7 +8,7 @@ app.config['UPLOAD_FOLDER'] = 'uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Use the Replicate token from env variables
-os.environ["REPLICATE_API_TOKEN"] = os.getenv("r8_BKfeyEOstB8Lzb0JT7LNWSIfaS5FAPL3mJHKw")
+os.environ["REPLICATE_API_TOKEN"] = "r8_BKfeyEOstB8Lzb0JT7LNWSIfaS5FAPL3mJHKw"
 
 
 @app.route("/generate", methods=["POST"])
